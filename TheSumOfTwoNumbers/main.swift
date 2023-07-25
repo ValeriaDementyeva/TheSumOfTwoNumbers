@@ -6,6 +6,14 @@
 //
 
 import Foundation
+// получение первого значения
+print("Введите первое значение")
+var a = readLine()
 
-print("Hello, World!")
+// получение второго значения
+print("Введите второе значение")
+var b = readLine()
 
+//сложение введеных чисел
+let result = sum(a, b)
+print("Результат - \(result)")

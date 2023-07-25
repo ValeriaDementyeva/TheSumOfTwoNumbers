@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4D6405732A6EE8AA00F6F7A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6405722A6EE8AA00F6F7A7 /* main.swift */; };
+		4DC651D42A7043440008AE66 /* func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC651D32A7043440008AE66 /* func.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		4D64056F2A6EE8AA00F6F7A7 /* TheSumOfTwoNumbers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TheSumOfTwoNumbers; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6405722A6EE8AA00F6F7A7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4DC651D32A7043440008AE66 /* func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = func.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				4D6405722A6EE8AA00F6F7A7 /* main.swift */,
+				4DC651D32A7043440008AE66 /* func.swift */,
 			);
 			path = TheSumOfTwoNumbers;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D6405732A6EE8AA00F6F7A7 /* main.swift in Sources */,
+				4DC651D42A7043440008AE66 /* func.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +247,7 @@
 		4D6405772A6EE8AA00F6F7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC74QLS5AT;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -254,6 +259,7 @@
 		4D6405782A6EE8AA00F6F7A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VC74QLS5AT;
 				ENABLE_HARDENED_RUNTIME = YES;
